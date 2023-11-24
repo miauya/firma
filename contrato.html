@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrato de ProInvest Latinoamérica</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1>Contrato de ProInvest Latinoamérica</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam rem totam maxime pariatur debitis, aliquid non perferendis cumque, dignissimos voluptates magni sit commodi. Facere totam laboriosam veritatis quisquam quae sint.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, provident sapiente ullam commodi ut, exercitationem sit cupiditate pariatur ad nemo, totam tempore rem officia fuga natus rerum molestias et est!
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, provident sapiente ullam commodi ut, exercitationem sit cupiditate pariatur ad nemo, totam tempore rem officia fuga natus rerum molestias et est!
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, provident sapiente ullam commodi ut, exercitationem sit cupiditate pariatur ad nemo, totam tempore rem officia fuga natus rerum molestias et est!
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, provident sapiente ullam commodi ut, exercitationem sit cupiditate pariatur ad nemo, totam tempore rem officia fuga natus rerum molestias et est!
+    </p>
+    <h3 class="texto-centrado">Firma del contrato</h3>
+    
+    <div class="texto-centrado">
+        <img src="" alt="Firma del contrato" id="firma">
+    </div>
+</body>
+
+<script>
+    //Metemos aqui el JS para no cargar otro JS tan pequeño
+    //Observe como usamos el window.opener que es la ventana padre
+    if(window.opener){
+        document.querySelector('#firma').src = window.opener.obtenerImagen();
+        window.print();
+    }
+</script>
+
+</html>
